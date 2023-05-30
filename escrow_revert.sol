@@ -1,6 +1,5 @@
-
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.9;
 contract Escrow {
     enum State { AWAITING_PAYMENT, AWAITING_DELIVERY, COMPLETE }
 
